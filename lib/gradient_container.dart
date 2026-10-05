@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_aristova/styled_text.dart';
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -17,13 +19,7 @@ class GradientContainer extends StatelessWidget {
         ), // LinearGradient
       ), // BoxDecoration
       child: Center(
-        child: Text(
-          "Hello world!",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 32,
-          ), // TextStyle
-        ), // Text
+        child: StyledText(),
       ), // Center
     ); // Container
   }
