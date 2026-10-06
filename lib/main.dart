@@ -3,14 +3,14 @@ import 'package:flutter_widgets_aristova/gradient_container.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: GradientContainer(
           Colors.white,
           Colors.blue,
           Colors.red,
-        ),
+        ), // GradientContainer
       ), // Scaffold
     ), // MaterialApp
   );
